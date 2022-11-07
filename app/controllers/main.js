@@ -225,12 +225,12 @@ function validateName() {
         spanEl.innerHTML = "Họ tên không được để trống"
         return false;
     }
-    let regex = /^([0-9])([#?!@$%^&*-])$/;
+    // let regex = /^([0-9])([#?!@$%^&*-])$/;
 
-    if (!regex.test(name)) {
-        spanEl.innerHTML = "Họ tên không hợp lệ"
-        return false;
-    }
+    // if (!regex.test(name)) {
+    //     spanEl.innerHTML = "Họ tên không hợp lệ"
+    //     return false;
+    // }
     spanEl.innerHTML = "";
     return true;
 }
